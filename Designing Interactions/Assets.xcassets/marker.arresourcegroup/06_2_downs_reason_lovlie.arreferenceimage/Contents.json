@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "06_2_downs_reason_lovlie.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "unit" : "centimeters",
+    "width" : 12
+  }
+}

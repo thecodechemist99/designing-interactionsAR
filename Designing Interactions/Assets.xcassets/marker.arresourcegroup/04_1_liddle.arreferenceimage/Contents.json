@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "04_1_liddle.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "unit" : "centimeters",
+    "width" : 12
+  }
+}

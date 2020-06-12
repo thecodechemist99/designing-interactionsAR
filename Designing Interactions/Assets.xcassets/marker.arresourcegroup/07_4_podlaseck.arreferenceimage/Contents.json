@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "07_4_podlaseck.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "unit" : "centimeters",
+    "width" : 12
+  }
+}

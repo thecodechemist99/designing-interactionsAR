@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="Designing_Interactions" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1p-5h-beu">
+                                <rect key="frame" x="324" y="637" width="50" height="48.666666666666629"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="FFe-G2-bNG"/>
+                                    <constraint firstAttribute="width" constant="50" id="ieN-AG-lW6"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="questionmark.circle.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="owC-GT-NRk" kind="show" id="S1f-gJ-VdO"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="viewfinder" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="KHC-lx-eQe">
+                                <rect key="frame" x="-18" y="142.99999999999997" width="450" height="450.33333333333337"/>
+                                <color key="tintColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="450" id="6eC-u3-f1z"/>
+                                    <constraint firstAttribute="height" constant="450" id="yPA-06-vWh"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="ultraLight"/>
+                            </imageView>
+                            <progressView opaque="NO" alpha="0.0" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="iRg-K7-CVE">
+                                <rect key="frame" x="0.0" y="726" width="414" height="11"/>
+                                <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="KD7-fI-eRH"/>
+                                </constraints>
+                            </progressView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" image="play.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="27Q-ca-yff">
+                                <rect key="frame" x="182" y="343" width="50" height="50"/>
+                                <color key="tintColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="E1p-1v-Wfr"/>
+                                    <constraint firstAttribute="width" constant="50" id="wnU-E4-Kji"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" image="pause.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="zgf-HC-avN">
+                                <rect key="frame" x="182" y="343.66666666666669" width="50" height="49"/>
+                                <color key="tintColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2yJ-3K-yyS"/>
+                                    <constraint firstAttribute="width" constant="50" id="sLR-in-yKh"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="iRg-K7-CVE" secondAttribute="trailing" id="9Lk-jB-gFi"/>
+                            <constraint firstItem="27Q-ca-yff" firstAttribute="centerX" secondItem="U0K-SW-4ec" secondAttribute="centerX" id="B5X-On-on4"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
+                            <constraint firstItem="zgf-HC-avN" firstAttribute="centerY" secondItem="U0K-SW-4ec" secondAttribute="centerY" id="Li9-70-YEt"/>
+                            <constraint firstItem="KHC-lx-eQe" firstAttribute="centerX" secondItem="U0K-SW-4ec" secondAttribute="centerX" id="Nay-jP-N9l"/>
+                            <constraint firstItem="iRg-K7-CVE" firstAttribute="leading" secondItem="U0K-SW-4ec" secondAttribute="leading" id="UYD-km-Lx6"/>
+                            <constraint firstItem="KHC-lx-eQe" firstAttribute="centerY" secondItem="U0K-SW-4ec" secondAttribute="centerY" id="UpC-6N-0wx"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
+                            <constraint firstItem="zgf-HC-avN" firstAttribute="centerX" secondItem="U0K-SW-4ec" secondAttribute="centerX" id="Wfq-Y5-fFA"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
+                            <constraint firstItem="27Q-ca-yff" firstAttribute="centerY" secondItem="U0K-SW-4ec" secondAttribute="centerY" id="aDU-Th-Qdb"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="a1p-5h-beu" secondAttribute="bottom" constant="50" id="eO9-Vi-v0V"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="iRg-K7-CVE" secondAttribute="bottom" id="rR9-kU-FW1"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="a1p-5h-beu" secondAttribute="trailing" constant="40" id="whu-Oe-1N2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                    </view>
+                    <connections>
+                        <outlet property="pauseIcon" destination="zgf-HC-avN" id="i0N-gB-Jes"/>
+                        <outlet property="playIcon" destination="27Q-ca-yff" id="WBs-lu-pGT"/>
+                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                        <outlet property="videoProgressBar" destination="iRg-K7-CVE" id="Rgd-uM-9eZ"/>
+                        <outlet property="viewFinder" destination="KHC-lx-eQe" id="zfA-3o-Ktg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-90" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="b8t-x7-rS7">
+            <objects>
+                <viewController id="owC-GT-NRk" sceneMemberID="viewController">
+                    <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="jwO-7r-uGR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to use this app?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HjU-w0-O01">
+                                <rect key="frame" x="20" y="29" width="303" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIa-hS-ox3">
+                                <rect key="frame" x="20" y="90" width="358" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">This app is designed to expand the possible ways of interaction with the book “Designing Interactions” by Bill Moggridge. Each chapter of the book is based upon one or multiple interviews. To watch the video that belongs to a section, hold the camera of your phone above the photograph of an interviewee at the beginning of a section.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="App: © 2020 Florian Beck" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Prp-4r-ezz">
+                                <rect key="frame" x="20" y="658" width="358" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Content: © 2020 Bill Moggridge/The MIT Press" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5VJ-6K-nbc">
+                                <rect key="frame" x="20" y="643" width="358" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="qq3-lC-rDP"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JaL-Ed-bHF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EWB-EW-N20" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="672.46376811594212" y="138.58695652173915"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pause.fill" catalog="system" width="116" height="128"/>
+        <image name="play.fill" catalog="system" width="116" height="128"/>
+        <image name="questionmark.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="viewfinder" catalog="system" width="128" height="114"/>
+    </resources>
+</document>

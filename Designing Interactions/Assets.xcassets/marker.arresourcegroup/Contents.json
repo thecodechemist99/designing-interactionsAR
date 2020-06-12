@@ -1,0 +1,119 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "00_crampton_smith.arreferenceimage"
+    },
+    {
+      "filename" : "01_1_engelbart.arreferenceimage"
+    },
+    {
+      "filename" : "01_2_card.arreferenceimage"
+    },
+    {
+      "filename" : "01_3_mott.arreferenceimage"
+    },
+    {
+      "filename" : "01_4_tesler.arreferenceimage"
+    },
+    {
+      "filename" : "02_1_atkinson.arreferenceimage"
+    },
+    {
+      "filename" : "02_2_bradley.arreferenceimage"
+    },
+    {
+      "filename" : "02_3_verplank.arreferenceimage"
+    },
+    {
+      "filename" : "02_4_ratzlaff.arreferenceimage"
+    },
+    {
+      "filename" : "03_1_ellenby.arreferenceimage"
+    },
+    {
+      "filename" : "03_2_hawkins.arreferenceimage"
+    },
+    {
+      "filename" : "03_3_keely.arreferenceimage"
+    },
+    {
+      "filename" : "03_4_haitani.arreferenceimage"
+    },
+    {
+      "filename" : "03_5_boyle.arreferenceimage"
+    },
+    {
+      "filename" : "04_1_liddle.arreferenceimage"
+    },
+    {
+      "filename" : "04_2_hunter.arreferenceimage"
+    },
+    {
+      "filename" : "04_3_sakai.arreferenceimage"
+    },
+    {
+      "filename" : "04_4_kelley.arreferenceimage"
+    },
+    {
+      "filename" : "04_5_mercer.arreferenceimage"
+    },
+    {
+      "filename" : "05_1_gordon.arreferenceimage"
+    },
+    {
+      "filename" : "05_2_boyle.arreferenceimage"
+    },
+    {
+      "filename" : "05_3_laurel.arreferenceimage"
+    },
+    {
+      "filename" : "05_4_wright.arreferenceimage"
+    },
+    {
+      "filename" : "06_1_natsuno.arreferenceimage"
+    },
+    {
+      "filename" : "06_2_downs_reason_lovlie.arreferenceimage"
+    },
+    {
+      "filename" : "06_3_samalionis.arreferenceimage"
+    },
+    {
+      "filename" : "07_1_winograd.arreferenceimage"
+    },
+    {
+      "filename" : "07_2_page_brin.arreferenceimage"
+    },
+    {
+      "filename" : "07_3_rogers.arreferenceimage"
+    },
+    {
+      "filename" : "07_4_podlaseck.arreferenceimage"
+    },
+    {
+      "filename" : "08_1_ishii.arreferenceimage"
+    },
+    {
+      "filename" : "08_2_bishop.arreferenceimage"
+    },
+    {
+      "filename" : "08_3_mountford.arreferenceimage"
+    },
+    {
+      "filename" : "08_4_gaver.arreferenceimage"
+    },
+    {
+      "filename" : "09_1_raby_dunne.arreferenceimage"
+    },
+    {
+      "filename" : "09_2_maeda.arreferenceimage"
+    },
+    {
+      "filename" : "09_3_rekimoto.arreferenceimage"
+    }
+  ]
+}

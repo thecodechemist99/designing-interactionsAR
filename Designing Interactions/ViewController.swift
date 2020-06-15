@@ -83,8 +83,7 @@ class ViewController: UIViewController {
                 }
             }
         }
-
-
+        
         runARSession()
         
     }
@@ -214,14 +213,14 @@ extension ViewController : ARSCNViewDelegate {
             for name in self.marker {
                 if let fileName = imgName, fileName.contains(name) {
                     DispatchQueue.main.async {
-//                        guard let videoURL = URL(string: "https://designinginteractions.florian-beck.de/\(name).mp4") else {
-//                            return
-//                        }
-                          guard let path = Bundle.main.path(forResource: name, ofType: "mp4") else {
+                        guard let videoURL = URL(string: "https://designinginteractions.florian-beck.de/\(name).mp4") else {
                             return
                         }
+//                          guard let path = Bundle.main.path(forResource: name, ofType: "mp4") else {
+//                            return
+//                        }
                         
-                        let videoURL = URL(fileURLWithPath: path)
+//                        let videoURL = URL(fileURLWithPath: path)
                         let avPlayerItem = AVPlayerItem(url: videoURL)
                         self.avPlayers[name] = AVPlayer(playerItem: avPlayerItem)
                         for n in self.marker {

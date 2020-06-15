@@ -103,40 +103,6 @@
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
-    },
-    {
-      "filename" : "ios-marketing.png",
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "Icon-83_5@2x.png",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "Icon-20.png",
-      "idiom" : "universal",
-      "scale" : "1x",
-      "size" : "20x20"
-    },
-    {
-      "filename" : "Icon-40.png",
-      "idiom" : "universal",
-      "scale" : "1x",
-      "size" : "40x40"
-    },
-    {
-      "filename" : "Icon-76.png",
-      "idiom" : "universal",
-      "scale" : "1x",
-      "size" : "76x76"
-    },
-    {
-      "filename" : "Icon-76@2x.png",
-      "idiom" : "universal",
-      "scale" : "2x",
-      "size" : "76x76"
     }
   ],
   "info" : {
